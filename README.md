@@ -29,24 +29,6 @@ A **highly scalable real-time emoji reaction system** built using Apache Kafka, 
 
 ---
 
-## 📁 Project Structure
-event-driven-emoji-system/
-│
-├── kafka/ # Kafka producer & consumer scripts
-
-├── spark/ # Spark streaming job for real-time processing
-
-├── backend/ # Flask server and API endpoints
-
-├── frontend/ # Simple UI to send emoji reactions
-
-├── requirements.txt # Dependencies (Python)
-
-└── README.md
-
-
----
-
 ## 🧪 How It Works
 
 1. **Users** react with emojis on the frontend  
