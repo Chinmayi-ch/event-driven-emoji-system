@@ -33,10 +33,15 @@ A **highly scalable real-time emoji reaction system** built using Apache Kafka, 
 event-driven-emoji-system/
 │
 ├── kafka/ # Kafka producer & consumer scripts
+
 ├── spark/ # Spark streaming job for real-time processing
+
 ├── backend/ # Flask server and API endpoints
+
 ├── frontend/ # Simple UI to send emoji reactions
+
 ├── requirements.txt # Dependencies (Python)
+
 └── README.md
 
 
@@ -80,7 +85,7 @@ python app.py
 spark-submit spark/emoji_stream_processor.py
 
 # Open frontend in browser
-Note: Setup steps will vary depending on your environment. Consider using Docker for a full-stack local deployment.
+Note: Setup steps will vary depending on your environment.
 
 🧠 Use Cases
 🎥 Live-stream audience interaction
