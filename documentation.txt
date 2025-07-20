@@ -1,0 +1,16 @@
+Prerequisites:
+
+1. Make sure kafka and zookeeper are running
+2. Make sure you have bun installed
+
+
+How to run the code:
+
+1. Run the shell1.sh file to clone the repository and install the dependencies. After running this, you need to change the IP address at 2 locations in the repository.
+
+    a. backend/client.ts (line 5)
+    b. emoji-analyzer/spark_processor.py (line 276)
+
+2. After changing the IP addresses, run the shell2.sh file to run the producer and consumer
+3. Open localhost:3001 in your browser to see the demo and you can open multiple tabs to test the concurrency
+
